@@ -15,9 +15,9 @@ def user_input_features():
 
 
 
-  user_input_data = {'Año': Year,
-                     'City': City,
-                     'Mes': Month,
+  user_input_data = {'Año:': Year,
+                     'Ciudad = 0 Acapulco, 1 Acuña, 2 Aguascalientes': City,
+                     'Mes:': Month,
                     }
 
   features = pd.DataFrame(user_input_data, index=[0])
