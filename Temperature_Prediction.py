@@ -9,15 +9,15 @@ st.header('Datos')
 
 def user_input_features():
   # Entrada
-  City = st.number_input('Ciudad = 0 Acapulco, 1 Acuña, 2 Aguascalientes:', min_value=0, max_value=2, value = 0, step = 1)
-  Year = st.number_input('Año:',  min_value=0, max_value=3000, value = 0, step = 1)
-  Month = st.number_input('Mes:', min_value=0, max_value=12, value = 0, step = 1)
+  City = st.number_input('City', min_value=0, max_value=2, value = 0, step = 1)
+  Year = st.number_input('Year',  min_value=0, max_value=3000, value = 0, step = 1)
+  Month = st.number_input('Month', min_value=0, max_value=12, value = 0, step = 1)
 
 
 
-  user_input_data = {'Año:': Year,
-                     'Ciudad = 0 Acapulco, 1 Acuña, 2 Aguascalientes:': City,
-                     'Mes:': Month,
+  user_input_data = {'Year': Year,
+                     'City': City,
+                     'Month': Month,
                     }
 
   features = pd.DataFrame(user_input_data, index=[0])
