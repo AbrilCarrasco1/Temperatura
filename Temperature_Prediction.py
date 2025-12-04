@@ -39,7 +39,7 @@ LR.fit(X_train,y_train)
 
 b1 = LR.coef_
 b0 = LR.intercept_
-prediccion = b0 + b1[0]*df['City'] + b1[1]*df['Year'] + b1[2]*df['Month']
+prediccion = b0 + b1[1]*df['City'] + b1[2]*df['Year'] + b1[3]*df['Month']
 
 st.subheader('Cálculo de la temperatura')
 st.write('La temperatura es: ', prediccion)
