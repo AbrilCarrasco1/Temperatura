@@ -16,7 +16,7 @@ def user_input_features():
 
 
   user_input_data = {'Año': Year,
-                     'City:': City,
+                     'City': City,
                      'Mes': Month,
                     }
 
