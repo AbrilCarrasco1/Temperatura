@@ -16,7 +16,7 @@ def user_input_features():
 
 
   user_input_data = {'Año:': Year,
-                     'Ciudad = 0 Acapulco, 1 Acuña, 2 Aguascalientes': City,
+                     'Ciudad = 0 Acapulco, 1 Acuña, 2 Aguascalientes:': City,
                      'Mes:': Month,
                     }
 
